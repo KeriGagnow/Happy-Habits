@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CAD08BC72FEB479800BF23F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD08BAE2FEB479200BF23F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD08BB52FEB479200BF23F3;
+			remoteInfo = "Happy Habits";
+		};
+		CAD08BD12FEB479800BF23F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD08BAE2FEB479200BF23F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD08BB52FEB479200BF23F3;
+			remoteInfo = "Happy Habits";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD08BB62FEB479200BF23F3 /* Happy Habits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Habits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD08BC62FEB479800BF23F3 /* Happy HabitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy HabitsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD08BD02FEB479800BF23F3 /* Happy HabitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy HabitsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CAD08BB82FEB479200BF23F3 /* Happy Habits */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Happy Habits";
+			sourceTree = "<group>";
+		};
+		CAD08BC92FEB479800BF23F3 /* Happy HabitsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Happy HabitsTests";
+			sourceTree = "<group>";
+		};
+		CAD08BD32FEB479800BF23F3 /* Happy HabitsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Happy HabitsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD08BB32FEB479200BF23F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD08BC32FEB479800BF23F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD08BCD2FEB479800BF23F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD08BAD2FEB479200BF23F3 = {
+			isa = PBXGroup;
+			children = (
+				CAD08BB82FEB479200BF23F3 /* Happy Habits */,
+				CAD08BC92FEB479800BF23F3 /* Happy HabitsTests */,
+				CAD08BD32FEB479800BF23F3 /* Happy HabitsUITests */,
+				CAD08BB72FEB479200BF23F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD08BB72FEB479200BF23F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD08BB62FEB479200BF23F3 /* Happy Habits.app */,
+				CAD08BC62FEB479800BF23F3 /* Happy HabitsTests.xctest */,
+				CAD08BD02FEB479800BF23F3 /* Happy HabitsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD08BB52FEB479200BF23F3 /* Happy Habits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD08BDA2FEB479800BF23F3 /* Build configuration list for PBXNativeTarget "Happy Habits" */;
+			buildPhases = (
+				CAD08BB22FEB479200BF23F3 /* Sources */,
+				CAD08BB32FEB479200BF23F3 /* Frameworks */,
+				CAD08BB42FEB479200BF23F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CAD08BB82FEB479200BF23F3 /* Happy Habits */,
+			);
+			name = "Happy Habits";
+			packageProductDependencies = (
+			);
+			productName = "Happy Habits";
+			productReference = CAD08BB62FEB479200BF23F3 /* Happy Habits.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD08BC52FEB479800BF23F3 /* Happy HabitsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD08BDD2FEB479800BF23F3 /* Build configuration list for PBXNativeTarget "Happy HabitsTests" */;
+			buildPhases = (
+				CAD08BC22FEB479800BF23F3 /* Sources */,
+				CAD08BC32FEB479800BF23F3 /* Frameworks */,
+				CAD08BC42FEB479800BF23F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD08BC82FEB479800BF23F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CAD08BC92FEB479800BF23F3 /* Happy HabitsTests */,
+			);
+			name = "Happy HabitsTests";
+			packageProductDependencies = (
+			);
+			productName = "Happy HabitsTests";
+			productReference = CAD08BC62FEB479800BF23F3 /* Happy HabitsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD08BCF2FEB479800BF23F3 /* Happy HabitsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD08BE02FEB479800BF23F3 /* Build configuration list for PBXNativeTarget "Happy HabitsUITests" */;
+			buildPhases = (
+				CAD08BCC2FEB479800BF23F3 /* Sources */,
+				CAD08BCD2FEB479800BF23F3 /* Frameworks */,
+				CAD08BCE2FEB479800BF23F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD08BD22FEB479800BF23F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CAD08BD32FEB479800BF23F3 /* Happy HabitsUITests */,
+			);
+			name = "Happy HabitsUITests";
+			packageProductDependencies = (
+			);
+			productName = "Happy HabitsUITests";
+			productReference = CAD08BD02FEB479800BF23F3 /* Happy HabitsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD08BAE2FEB479200BF23F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CAD08BB52FEB479200BF23F3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					CAD08BC52FEB479800BF23F3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CAD08BB52FEB479200BF23F3;
+					};
+					CAD08BCF2FEB479800BF23F3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CAD08BB52FEB479200BF23F3;
+					};
+				};
+			};
+			buildConfigurationList = CAD08BB12FEB479200BF23F3 /* Build configuration list for PBXProject "Happy Habits" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD08BAD2FEB479200BF23F3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CAD08BB72FEB479200BF23F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD08BB52FEB479200BF23F3 /* Happy Habits */,
+				CAD08BC52FEB479800BF23F3 /* Happy HabitsTests */,
+				CAD08BCF2FEB479800BF23F3 /* Happy HabitsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD08BB42FEB479200BF23F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD08BC42FEB479800BF23F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD08BCE2FEB479800BF23F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD08BB22FEB479200BF23F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD08BC22FEB479800BF23F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD08BCC2FEB479800BF23F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD08BC82FEB479800BF23F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD08BB52FEB479200BF23F3 /* Happy Habits */;
+			targetProxy = CAD08BC72FEB479800BF23F3 /* PBXContainerItemProxy */;
+		};
+		CAD08BD22FEB479800BF23F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD08BB52FEB479200BF23F3 /* Happy Habits */;
+			targetProxy = CAD08BD12FEB479800BF23F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAD08BD82FEB479800BF23F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD08BD92FEB479800BF23F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD08BDB2FEB479800BF23F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Happy Habits/Preview Content\"";
+				DEVELOPMENT_TEAM = QR3XA9UDU6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Happy-Habits.Happy-Habits";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD08BDC2FEB479800BF23F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Happy Habits/Preview Content\"";
+				DEVELOPMENT_TEAM = QR3XA9UDU6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Happy-Habits.Happy-Habits";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAD08BDE2FEB479800BF23F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR3XA9UDU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Happy-Habits.Happy-HabitsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy Habits.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Happy Habits";
+			};
+			name = Debug;
+		};
+		CAD08BDF2FEB479800BF23F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR3XA9UDU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Happy-Habits.Happy-HabitsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy Habits.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Happy Habits";
+			};
+			name = Release;
+		};
+		CAD08BE12FEB479800BF23F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR3XA9UDU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Happy-Habits.Happy-HabitsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Happy Habits";
+			};
+			name = Debug;
+		};
+		CAD08BE22FEB479800BF23F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR3XA9UDU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Happy-Habits.Happy-HabitsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Happy Habits";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD08BB12FEB479200BF23F3 /* Build configuration list for PBXProject "Happy Habits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD08BD82FEB479800BF23F3 /* Debug */,
+				CAD08BD92FEB479800BF23F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD08BDA2FEB479800BF23F3 /* Build configuration list for PBXNativeTarget "Happy Habits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD08BDB2FEB479800BF23F3 /* Debug */,
+				CAD08BDC2FEB479800BF23F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD08BDD2FEB479800BF23F3 /* Build configuration list for PBXNativeTarget "Happy HabitsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD08BDE2FEB479800BF23F3 /* Debug */,
+				CAD08BDF2FEB479800BF23F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD08BE02FEB479800BF23F3 /* Build configuration list for PBXNativeTarget "Happy HabitsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD08BE12FEB479800BF23F3 /* Debug */,
+				CAD08BE22FEB479800BF23F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD08BAE2FEB479200BF23F3 /* Project object */;
+}
